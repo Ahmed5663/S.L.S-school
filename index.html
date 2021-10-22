@@ -7,7 +7,6 @@
 
     <link rel="stylesheet" href="fonts/fontawesome-free-5.15.4-web/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-
     <link rel="shortcut icon" type="imagex-icon" href="images/favicon.ico">
 
     <title>Hello, world!</title>
@@ -52,16 +51,52 @@
         </div>
       </div>
     </nav>
-      <!--logo-->
-      <img src="images/logo.jpg" style="width: 100%;height: 700px !important;">
-
+      <!--carousel-->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/logo.jpg" class="d-block w-100 ca" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>S.L.S</h3>
+              <h4>Welcom Back To School</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/trip.jpg" class="d-block w-100 ca" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>S.L.S</h3>
+              <h4>Welcom Back To School</h4>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/students.jpg" class="d-block w-100 ca" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>S.L.S</h3>
+              <h4>School students</h4>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
       <!--card-->
       <div class="card-group p-3">
         <div class="card">
           <img src="images/class.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title text-muted">S.L.S</h5>
-            <p class="card-text">School desgin <i class="fas fa-door-closed"></i><BR><A style="text-decoration: none;" href="#class">Press to go to class imgs</A></p>
+            <p class="card-text">School design <i class="fas fa-door-closed"></i><BR><A style="text-decoration: none;" href="#class">Press to go to school activities</A></p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -69,7 +104,7 @@
           <img src="images/students.jpg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title text-muted">S.L.S</h5>
-            <p class="card-text">School students <i class="fas fa-male"></i><BR><A style="text-decoration: none;" href="#students">Press to go to students imgs</A></p>
+            <p class="card-text">School students <i class="fas fa-male"></i><BR><A style="text-decoration: none;" href="#students">Press to go to school activities</A></p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -77,7 +112,7 @@
           <img src="images/trip.jpg" class="card-img-top image" alt="...">
           <div class="card-body">
             <h5 class="card-title text-muted">S.L.S</h5>
-            <p class="card-text">School activities <i class="fas fa-hiking"></i><BR><A style="text-decoration: none;" href="#activities">Press to go to activities imgs</A></p>
+            <p class="card-text">School activities <i class="fas fa-hiking"></i><BR><A style="text-decoration: none;" href="#activities">Press to go to school activities</A></p>
             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
           </div>
         </div>
@@ -156,6 +191,36 @@
                 
             </div>
 
+            <!--news-->
+            <div class="p-3 container">
+              <h1 class="text-center"><strong>School News</strong></h1>
+              <div class="card container mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="images/news.jpg" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">text</p>
+                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--rules-->
+            <h1 class="text-center"><strong>School Rules</strong></h1>
+
+            <div class="p-5">
+              <ul>
+                <p>1-wear school uniform</p>
+                <p>2-No phones</p>
+                <p>3-Do not be late for the school Morning assembly</p>
+                <p>4-Not being absent Daily</p>
+                <p>5-arrived early</p>
+              </ul>
+            </div>
 
             <!--location-->
             <div class="p-3">
